@@ -16,7 +16,6 @@ cloudinary.config({
   api_secret: process.env.CLOUDINARY_API_SECRET,
 });
 const corsOption = {
-  // origin: "http://localhost:5173",
   origin : "https://658e6d145225747ae14b02ac--dashing-dango-1db5d6.netlify.app",
   credentials: true,
 };
