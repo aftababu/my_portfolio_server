@@ -16,7 +16,7 @@ cloudinary.config({
   api_secret: process.env.CLOUDINARY_API_SECRET,
 });
 const corsOption = {
-  origin : "https://658e6d145225747ae14b02ac--dashing-dango-1db5d6.netlify.app",
+  origin : "https://659244dd8522cb80f27014c7--dashing-dango-1db5d6.netlify.app",
   credentials: true,
 };
 connectDatabase();
